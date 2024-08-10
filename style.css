@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  background: url(./img/h03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.header__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  padding: 20px 10% 0px 10%;
+}
+.header__navbar_menu-hamburger,
+.header__navbar-equalizer-i,
+.header__navbar-equalizer button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(245, 242, 225, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.header__navbar_menu-hamburger-icon,
+.header__navbar-equalizer-i i,
+.header__navbar-equalizer button {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.header__navbar_reseach {
+  background-color: rgb(245, 242, 225, 0.5);
+  max-width: 100%;
+  width: 330px;
+  height: 40px;
+  border-radius: 20px;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 12px;
+}
+.header__navbar_reseach input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+.header__navbar-equalizer {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.header__navbar-equalizer button {
+  border: none;
+  margin: 0 auto 0 auto;
+}
+.section {
+  padding: 0 10%;
+}
+.hero {
+  position: relative;
+  height: 100vh;
+}
+.hero__left {
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
+  width: 40%;
+  position: absolute;
+  bottom: 122px;
+  align-items: center;
+}
+.hero__left-header {
+  display: flex;
+  align-items: flex-end;
+
+  margin-bottom: 14px;
+}
+.hero__left-header--title-h1 {
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.hero__left-header--title-h1 span {
+  color: black;
+  background-color: #c0ffa2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+  right: 32px;
+  bottom: 10px;
+}
+
+.hero__left-desc {
+  color: #fff;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
